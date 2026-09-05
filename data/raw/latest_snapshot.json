@@ -1,17 +1,17 @@
 {
-  "timestamp": "2026-09-05T06:25:48.224948",
+  "timestamp": "2026-09-05T06:41:25.783978",
   "source": "Delhi SLDC",
   "url": "https://www.delhisldc.org/HomeSldc.aspx",
-  "delhi_load_mw": 4533.0,
-  "scheduled_load_mw": 3827.0,
-  "drawal_from_ists_mw": 3823.0,
-  "od_ud_mw": -4.0,
-  "total_generation_mw": 710.0,
-  "grid_frequency_hz": 49.72,
+  "delhi_load_mw": 4583.0,
+  "scheduled_load_mw": 3887.0,
+  "drawal_from_ists_mw": 3876.0,
+  "od_ud_mw": -11.0,
+  "total_generation_mw": 708.0,
+  "grid_frequency_hz": 49.88,
   "peak_demand_today_mw": 5578.0,
   "peak_demand_today_time": "00:49:15",
   "peak_demand_yesterday_mw": 6605.0,
   "max_demand_year_mw": 8748.0,
   "max_demand_date": "29 Jun 2026",
-  "data_as_on": "05 Sept 2026 06:24:53"
+  "data_as_on": "05 Sept 2026 06:40:33"
 }
