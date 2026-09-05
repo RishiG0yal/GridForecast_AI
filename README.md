@@ -74,11 +74,6 @@ graph TB
 
 ## 🔄 Data Flows & Real-Time Sources
 
-### Are the Load and Solar Data Real?
-**Yes, absolutely.**
-- **Load (Demand):** Scraped directly in real-time from [Delhi SLDC (delhisldc.org)](https://delhisldc.org) and its API endpoints.
-- **Solar Generation:** Calculated in real-time based on actual physical `solar_radiation`, `cloud_cover`, and `temperature` metrics pulled directly from the [Open-Meteo API](https://open-meteo.com). 
-
 | Data Type | Source | Real-Time? |
 |---|---|---|
 | **Delhi Demand (Historical)** | delhisldc.org API | ✅ Yes |
@@ -153,6 +148,7 @@ scripts\setup.bat
 scripts\start.bat
 ```
 *Access the dashboard at **http://localhost:3000***
+*Or you can directly access the website at **https://grid-forecast-ai-five.vercel.app/***
 
 ### Manual Start
 
@@ -166,25 +162,6 @@ scripts\start.bat
    cd electricity-demand-forecast/frontend
    npm start
    ```
-
----
-
-## 🚀 Deployment Guide
-
-### Option 1: Modern Cloud (Vercel + Render)
-**Backend (Render):**
-1. Connect your repository to Render as a New Web Service.
-2. Set Build Command to: `pip install -r requirements.txt`
-3. Set Start Command to: `uvicorn backend.api.main:app --host 0.0.0.0 --port $PORT`
-*Pro-tip: Use [UptimeRobot](https://uptimerobot.com) to ping your `https://your-render-url.onrender.com/health` endpoint every 5 minutes so the free tier never sleeps!*
-
-**Frontend (Vercel):**
-1. Import repository to Vercel.
-2. Set Root Directory to `frontend`.
-3. Add environment variable `REACT_APP_API_URL` pointing to your Render backend URL.
-
-### Option 2: VPS / Docker
-A `Dockerfile` and `docker-compose.yml` can be added to easily spin up the full stack on any DigitalOcean/AWS EC2 Ubuntu server.
 
 ---
 
