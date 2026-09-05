@@ -1,12 +1,12 @@
 {
-  "timestamp": "2026-09-05T06:36:15.998982",
-  "temperature": 25.6,
-  "humidity": 97,
+  "timestamp": "2026-09-05T06:46:15.861866",
+  "temperature": 25.7,
+  "humidity": 96,
   "feels_like": 31.5,
-  "precipitation": 0.2,
-  "wind_speed": 5.9,
+  "precipitation": 0.1,
+  "wind_speed": 6.1,
   "cloud_cover": 100,
-  "solar_radiation": 9.0,
+  "solar_radiation": 19.0,
   "lat": 28.6139,
   "lon": 77.209,
   "location": "Delhi, India"
