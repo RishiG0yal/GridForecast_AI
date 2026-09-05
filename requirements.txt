@@ -1,0 +1,53 @@
+# GridForecast AI — Python dependencies
+# Tested on Python 3.14 (macOS Apple Silicon)
+# Install: python3 -m pip install -r requirements.txt --no-user
+
+# --- Web framework ---
+fastapi==0.141.1
+uvicorn[standard]==0.52.4
+python-multipart==0.0.32
+starlette==1.6.0
+
+# --- Data ---
+pandas==3.0.5
+numpy==2.5.2
+pyarrow==25.0.1
+openpyxl==3.1.5
+
+# --- ML models ---
+scikit-learn==1.9.0
+xgboost==3.4.1
+scipy==1.18.1
+joblib==1.6.0
+
+# --- Time-series ---
+prophet==1.4.0
+statsmodels==0.15.0
+holidays==0.103
+
+# --- Deep learning (CNN/LSTM) — requires Python <=3.12 ---
+# tensorflow>=2.16          # Skip on Python 3.14, not available yet
+# CNN/LSTM models will be skipped gracefully if TF is missing
+
+# --- HTTP / scraping ---
+httpx==0.28.1
+requests==2.34.2
+beautifulsoup4==4.15.0
+lxml==6.1.3
+playwright==1.62.0
+
+# --- Database ---
+sqlalchemy==2.0.52
+aiosqlite==0.22.1
+aiofiles==25.1.0
+
+# --- API / config ---
+pydantic==2.13.5
+pydantic-settings==2.15.0
+python-dotenv==1.2.3
+
+# --- Scheduling (live scraper) ---
+apscheduler==3.11.3
+
+# --- Dev tools ---
+ruff==0.16.6

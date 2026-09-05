@@ -1,0 +1,16 @@
+plant_name,area,fuel_type,installed_mw,availability_factor
+Singrauli_STPS,Northern_Region,coal,2000,0.85
+Rihand_STPS,Northern_Region,coal,3000,0.82
+Dadri_Gas,Northern_Region,gas,817,0.75
+Tehri_Hydro,Northern_Region,hydro,1000,0.7
+Rajasthan_Atomic,Western_Region,nuclear,1180,0.8
+Mundra_UMPP,Western_Region,coal,4620,0.88
+Kutch_Wind_Farm,Western_Region,wind,500,0.35
+Gujarat_Solar_Park,Western_Region,solar,700,0.22
+Ramagundam_STPS,Southern_Region,coal,2600,0.83
+Kaiga_Nuclear,Southern_Region,nuclear,880,0.82
+Sharavathi_Hydro,Southern_Region,hydro,1035,0.65
+Tamil_Nadu_Wind,Southern_Region,wind,900,0.32
+Farakka_STPS,Eastern_Region,coal,2100,0.8
+Talcher_STPS,Eastern_Region,coal,3000,0.84
+Eastern_Hydro,Eastern_Region,hydro,600,0.6
