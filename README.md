@@ -7,6 +7,7 @@
   [![React](https://img.shields.io/badge/Frontend-React-blue?logo=react)](https://reactjs.org/)
   [![FastAPI](https://img.shields.io/badge/Backend-FastAPI-009688?logo=fastapi)](https://fastapi.tiangolo.com/)
   [![Scikit-Learn](https://img.shields.io/badge/ML-Scikit--Learn-F7931E?logo=scikit-learn)](https://scikit-learn.org/)
+  [![Live Demo](https://img.shields.io/badge/Live_Demo-Vercel-black?logo=vercel)](https://grid-forecast-ai-five.vercel.app/)
   <br/>
   **Predicting electricity demand for Delhi in real-time using live SLDC data, Open-Meteo weather APIs, and advanced ML forecasting models.**
 </div>
